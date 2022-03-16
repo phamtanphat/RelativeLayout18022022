@@ -9,60 +9,89 @@
 
 
     <TextView
-        android:id="@+id/textViewRed"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#f20"
-        android:text="Red"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="15dp"
+        android:text="1"
         android:textColor="#ffff"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/textViewGreen"
+        android:layout_toEndOf="@id/textView1"
+        android:layout_below="@id/textView1"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewRed"
-        android:background="#56D329"
-        android:text="Green"
+        android:background="#87DD23"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="15dp"
+        android:text="2"
         android:textColor="#ffff"
-        android:textSize="30sp" />
-
+        android:textSize="20sp" />
     <TextView
-        android:id="@+id/textViewBlue"
+        android:layout_toEndOf="@id/textView2"
+        android:layout_below="@id/textView2"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewGreen"
-        android:background="#3454C6"
-        android:text="Blue"
+        android:background="#FF9800"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="15dp"
+        android:text="3"
         android:textColor="#ffff"
-        android:textSize="30sp" />
-
+        android:textSize="20sp" />
     <TextView
-        android:id="@+id/textViewOrange"
+        android:layout_toEndOf="@id/textView3"
+        android:layout_below="@id/textView3"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewBlue"
-        android:background="#C59F2D"
-        android:text="Orange"
+        android:background="#9C27B0"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="15dp"
+        android:text="4"
         android:textColor="#ffff"
-        android:textSize="30sp" />
-    <TextView
-        android:layout_below="@id/textViewOrange"
-        android:id="@+id/textViewGray"
-        android:background="#8E8D8D"
-        android:textColor="#ffff"
-        android:textSize="30sp"
-        android:text="Gray"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textSize="20sp" />
 
     <TextView
-        android:layout_below="@id/textViewGray"
-        android:id="@+id/textViewPink"
-        android:background="#9A31AC"
-        android:textColor="#ffff"
-        android:textSize="30sp"
-        android:text="Pink"
+        android:layout_toStartOf="@id/textView4"
+        android:layout_below="@id/textView4"
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="#3AA696"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="15dp"
+        android:text="5"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_toStartOf="@id/textView5"
+        android:layout_below="@id/textView5"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9820D8"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="15dp"
+        android:text="6"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_toStartOf="@id/textView6"
+        android:layout_below="@id/textView6"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#737373"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="15dp"
+        android:text="7"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
 </RelativeLayout>
